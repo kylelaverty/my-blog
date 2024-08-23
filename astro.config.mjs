@@ -10,6 +10,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://blog.kylelaverty.ca",
   integrations: [mdx(), sitemap(), tailwind()],
 });
