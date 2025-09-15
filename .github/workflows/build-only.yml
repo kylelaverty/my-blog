@@ -1,0 +1,35 @@
+name: My Blog - Build Only 🛠️
+
+# Dynamically set the run name to include the type of branch (feature or bugfix), branch name, and the user
+run-name: "${{ contains(github.head_ref, 'feature/') && 'Feature' || contains(github.head_ref, 'bugfix/') && 'Bugfix' || 'Update' }}: ${{ github.head_ref }} by @${{ github.actor }} run #${{ github.run_number }} attempt #${{ github.run_attempt }}"
+
+on:
+  pull_request:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  workflow_dispatch:
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build Site
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: myblog
+      cancel-in-progress: true
+
+    steps:
+      # 1) Checkout the current repo.
+      - name: 📂 Check out the code
+        uses: actions/checkout@v4
+
+      # 5) Build a project or solution and all of its dependencies.
+      - name: 🛠️ Build
+        uses: withastro/action@v2
+        with:
+          package-manager: npm@latest
