@@ -5,7 +5,7 @@ date: "2024-08-01"
 draft: false
 ---
 
-![garlic-rosemary-sticks](/bread/garlic-rosemary-sticks.jpg)
+![garlic-rosemary-sticks](/bread/garlic-rosemary-sticks.png)
 
 - Flavorful breadsticks infused with garlic and rosemary, perfect for dipping or as a side.
 - I have made these a few times, they are especially good with soup.
