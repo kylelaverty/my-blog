@@ -17,6 +17,11 @@ const projects = (await getCollection("projects"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
 
+const breads = (await getCollection("breads"))
+  .filter((bread) => !bread.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, SITE.NUM_BREADS_ON_HOMEPAGE);
+
 const allwork = (await getCollection("work"))
   .filter((work) => !work.data.draft)
   .sort(
@@ -125,6 +130,24 @@ const work = await Promise.all(
             projects.map((project) => (
               <li>
                 <ArrowCard entry={project} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class="animate space-y-6">
+        <div class="flex flex-wrap gap-y-2 items-center justify-between">
+          <h5 class="font-semibold text-black dark:text-white">
+            Recent breads
+          </h5>
+          <Link href="/breads"> See all breads </Link>
+        </div>
+        <ul class="flex flex-col gap-4">
+          {
+            breads.map((bread) => (
+              <li>
+                <ArrowCard entry={bread} />
               </li>
             ))
           }

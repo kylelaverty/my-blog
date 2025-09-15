@@ -12,8 +12,12 @@ export async function GET(context: Context) {
 
   const projects = (await getCollection("projects"))
     .filter(project => !project.data.draft);
+  
 
-  const items = [...blog, ...projects]
+  const breads = (await getCollection("breads"))
+    .filter(bread => !bread.data.draft);
+
+  const items = [...blog, ...projects, ...breads]
     .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
   return rss({
