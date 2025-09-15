@@ -1,6 +1,6 @@
 ---
 title: "Honey Buns"
-description: "A delicious baked treat."
+description: "Sweet, soft, and sticky buns."
 date: "2025-08-01"
 draft: false
 ---

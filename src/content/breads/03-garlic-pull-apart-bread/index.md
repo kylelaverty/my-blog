@@ -1,6 +1,6 @@
 ---
 title: "Garlic Pull Apart Bread"
-description: "A delicious baked treat."
+description: "Layered bread loaf for easy sharing."
 date: "2023-06-01"
 draft: false
 ---

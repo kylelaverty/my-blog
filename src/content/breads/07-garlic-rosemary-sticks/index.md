@@ -1,6 +1,6 @@
 ---
 title: "Garlic Rosemary Sticks"
-description: "A delicious baked treat."
+description: "Flavorful breadsticks infused with garlic and rosemary."
 date: "2024-08-01"
 draft: false
 ---

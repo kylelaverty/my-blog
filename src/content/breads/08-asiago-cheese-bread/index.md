@@ -1,6 +1,6 @@
 ---
 title: "Asiago Cheese Bread"
-description: "A delicious baked treat."
+description: "Savory bread infused with asiago cheese and herbs."
 date: "2025-02-01"
 draft: false
 ---

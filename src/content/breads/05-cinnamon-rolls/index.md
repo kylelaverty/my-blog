@@ -1,6 +1,6 @@
 ---
 title: "Cinnamon Rolls"
-description: "A delicious baked treat."
+description: "Airy and sweet rolls."
 date: "2023-12-01"
 draft: false
 ---

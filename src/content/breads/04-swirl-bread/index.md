@@ -1,6 +1,6 @@
 ---
 title: "Swirl bread"
-description: "A delicious baked treat."
+description: "Swirl of chocolate and plain dough."
 date: "2023-09-01"
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Monkey Bread"
-description: "A delicious baked treat."
+description: "Sticky pull apart bread."
 date: "2023-02-01"
 draft: false
 ---

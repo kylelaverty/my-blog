@@ -1,6 +1,6 @@
 ---
 title: "Dutch Oven Loaf"
-description: "A delicious baked treat."
+description: "A classic artisan-style bread with a crispy crust."
 date: "2024-04-01"
 draft: false
 ---
