@@ -2,7 +2,7 @@
 title: "What Makes a Great Developer?"
 description: "Some thoughts on what makes a great developer."
 date: "2025-09-16"
-draft: true
+draft: false
 ---
 
 When designing recruiting processes or evaluating developers, I am often asked what makes a great developer. People have all sort of answers to this question. Many focus on the technical skills and their speed of software development. While these are important, I believe there are other qualities that are more important. You can always teach people new languages, you can train them in more efficient ways to write code and do code reviews. But soft skills and personal drive, those are much harder to teach. They often come down to personality and mindset and are learned over years, often since they were kids.
