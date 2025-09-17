@@ -5,6 +5,8 @@ date: "2025-09-16"
 draft: false
 ---
 
+![developer header](/blog/developer-600.png)
+
 When designing recruiting processes or evaluating developers, I am often asked what makes a great developer. People have all sort of answers to this question. Many focus on the technical skills and their speed of software development. While these are important, I believe there are other qualities that are more important. You can always teach people new languages, you can train them in more efficient ways to write code and do code reviews. But soft skills and personal drive, those are much harder to teach. They often come down to personality and mindset and are learned over years, often since they were kids.
 
 In this short post, I will share what I think are 6 key qualities that make a great developer. It is worth knowing, that I am not talking about the 10x developer, the work 60 hours a week developer or the developer that shoots to the top of the career ladder the fastest.
